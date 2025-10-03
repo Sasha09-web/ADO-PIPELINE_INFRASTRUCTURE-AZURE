@@ -1,10 +1,4 @@
 terraform {
-      backend "azurerm" {
-    resource_group_name  = "pipeline_rg2"
-    storage_account_name = "pipelinestg2"
-    container_name       = "pipeline-container"
-    key                  = "pipeline.terraform.tfstate"
-  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
