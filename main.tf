@@ -1,6 +1,6 @@
 
 
-resource "azurerm_resource_group" "rgpipeline4" {
-  name     = "pipeline_rg4"
+resource "azurerm_resource_group" "rgpipeline5" {
+  name     = "pipeline_rg5"
   location = "West Europe"
 }
